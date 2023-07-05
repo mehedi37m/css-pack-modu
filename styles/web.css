@@ -1,0 +1,13 @@
+p{
+    border: 5px solid black;
+    padding: 15px;
+    background-color: aqua;
+}
+h2{
+    text-align: center;
+     background-color: aqua;
+}
+*{
+    background-color: bisque;
+    background-image: url('computer.jpg');
+}
