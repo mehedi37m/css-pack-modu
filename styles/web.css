@@ -1,13 +1,30 @@
 p{
     border: 5px solid black;
     padding: 15px;
-    background-color: aqua;
+    background-color: rgb(125, 231, 231);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px blue;
 }
 h2{
     text-align: center;
      background-color: aqua;
+     text-shadow: 2px 2px;
+     box-sizing: border-box;    
+    }
+/* *{
+   
+    background-image: url('../image/table computer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+} */
+.this{
+    background-color: aqua;
+    border: 10px solid ghostwhite;
 }
-*{
-    background-color: bisque;
-    background-image: url('computer.jpg');
+.hi{
+    width: 500px;
+    padding-left: 35%;
+    /* text-align: center; */
+    
 }

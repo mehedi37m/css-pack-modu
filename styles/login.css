@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hello{
+    width: 100%;
+    background: linear-gradient(to top, black, black,50%);
+    background-image: url('../image/WhatsApp.jpg');
+    height: 109vh;
+    background-position: center;
+}
+.navbar{
+    width:1200px ;
+    height: 75px;
+    margin: auto;
+}
+.main{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.sit{
+    color: rgb(75, 72, 66);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: yellow;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid slateblue;
+    color: white;
+    border-right: none;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(231, 84, 30);
+    border: 2px solid rgb(34, 32, 28);
+    color: white;
+    font-size: 18px;
+    border-bottom-right-radius: 10px;
+    /* border-bottom-right-radius: 5px; */
+
+} 
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
