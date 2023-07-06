@@ -6,9 +6,13 @@
 .hello{
     width: 100%;
     background: linear-gradient(to top, black, black,50%);
-    background-image: url('../image/WhatsApp.jpg');
+    background-image: url('../image/woman.jpg');
     height: 109vh;
-    background-position: center;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* display: block; */
+    background-size: cover;
+
 }
 .navbar{
     width:1200px ;
@@ -21,7 +25,7 @@
     height: 70px;
 }
 .sit{
-    color: rgb(75, 72, 66);
+    color: rgb(170, 117, 10);
     font-size: 35px;
     font-family: Arial;
     padding-left: 10px;
@@ -63,6 +67,10 @@ ul li a:hover{
     margin-left: 270px;
     margin-top: 20px;
 }
+.btn:hover{
+    color: blue;
+    transition: 0.4s ease-in-out;
+}
 .srch{
     font-family: 'Times New Roman';
     width: 200px;
@@ -94,4 +102,53 @@ ul li a:hover{
 }
 .srch:focus{
     outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: rgba(227, 221, 231, 0.945);
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    height:30px ;
+    width: 160px;
+    background-color: rgb(167, 243, 25);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: azure;
+    transition: .3s ease;
+    
+}
+.content .cn a{
+    text-decoration: none;
+    transition: .3s ease;
+}
+  
+.cn:hover{
+    background-color:rgb(182, 149, 235) ;
+}
+
+.content span{
+    color: rgb(218, 93, 20);
+    
 }
